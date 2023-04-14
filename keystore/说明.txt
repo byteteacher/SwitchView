@@ -1,0 +1,40 @@
+密码 qwer!@#$
+别名 chaojun
+
+密钥库类型: PKCS12
+密钥库提供方: SUN
+
+您的密钥库包含 1 个条目
+
+别名: chaojun
+创建日期: 2023年3月25日
+失效日期: 2123年3月1日
+条目类型: PrivateKeyEntry
+证书链长度: 1
+证书[1]:
+所有者: CN=chaojun, OU=cjfk, O=cjfk, L=zhengzhou, ST=henan, C=86
+发布者: CN=chaojun, OU=cjfk, O=cjfk, L=zhengzhou, ST=henan, C=86
+序列号: 16272bea
+生效时间: Sat Mar 25 10:36:58 CST 2023, 失效时间: Mon Mar 01 10:36:58 CST 2123
+证书指纹:
+         MD5: E9:F5:E3:E1:09:3F:48:CB:4E:7C:64:69:CD:6E:5D:2B
+         SHA1: 8A:64:D7:56:6C:06:D9:ED:E4:B6:8F:02:CC:4F:C8:6D:C3:59:2A:0A
+         SHA-256: D0:C5:E6:8B:D7:62:47:20:02:F6:34:FE:EF:6D:DD:14:E0:B5:DF:12:BD:E3:BD:2E:1C:5C:11:C8:28:D8:B3:F4
+签名算法名称: SHA256withRSA
+主体公共密钥算法: 2048 位 RSA 密钥
+版本: 3
+
+扩展:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: EB 38 70 7E 35 D8 B1 B1   8C 51 0C CC 3F 1C 12 4E  .8p.5....Q..?..N
+0010: B8 A6 CF A5                                        ....
+]
+]
+
+
+
+*******************************************
+*******************************************
