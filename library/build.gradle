@@ -42,8 +42,8 @@ uploadArchives {
         repository(url: uri(defaultLocalRepo))
         // 配置pom信息
         pom.groupId = "com.cj.library"
-        pom.artifactId = "baselibrary"
-        pom.version = "1.0.5"
+        pom.artifactId = "switchview"
+        pom.version = "1.0.0"
         pom.packaging = "aar"
     }
 }

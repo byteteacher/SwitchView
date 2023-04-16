@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SwitchView">
+        <attr name="trackViewUncheckedColor" format="color"/>
+        <attr name="trackViewCheckedColor" format="color"/>
+        <attr name="thumbColor" format="color"/>
+        <attr name="thumbSize" format="dimension"/>
+        <attr name="checked" format="boolean"/>
+    </declare-styleable>
+
+</resources>

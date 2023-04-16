@@ -2,16 +2,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    >
+    android:gravity="center_horizontal">
 
     <Button
         android:id="@+id/bt_start"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:onClick="onClick"
+        android:background="@android:color/transparent"
         android:text="" />
 
 
+    <com.byteteacher.library.SwitchView
+        android:id="@+id/myswitch"
+        android:layout_width="wrap_content"
+        app:thumbSize="26dp"
+        app:thumbColor="#FFF"
+        app:trackViewUncheckedColor="#626260"
+        app:trackViewCheckedColor="#14C893"
+        app:checked="true"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

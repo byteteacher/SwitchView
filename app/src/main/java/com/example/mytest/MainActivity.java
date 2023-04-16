@@ -1,12 +1,14 @@
 package com.example.mytest;
 
-import android.view.View;
+import android.util.Log;
+import android.widget.CompoundButton;
 
-import com.example.my.R;
+import com.byteteacher.library.SwitchView;
 import com.cj.library.base.BaseActivity;
+import com.example.myswitchview.R;
 
 
-public class MainActivity extends BaseActivity implements View.OnClickListener {
+public class MainActivity extends BaseActivity {
 
     private static final String TAG = "cj";
 
@@ -18,17 +20,16 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 
     @Override
     protected void initView() {
+        SwitchView myswitch = findViewById(R.id.myswitch);
 
-    }
+        myswitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                Log.e(TAG, "onCheckedChanged: " + isChecked);
+                Log.e(TAG, "onCheckedChanged: " + buttonView.isChecked());
+            }
+        });
 
-
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.bt_start:
-
-                break;
-        }
     }
 
 

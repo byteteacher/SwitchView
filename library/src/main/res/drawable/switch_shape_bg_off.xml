@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 圆角 -->
+    <corners android:radius="150dp" />
+    <!-- 设置圆角半径 -->
+
+    <!-- 大小 -->
+    <!--    width不起作用，根据thumb自动变化-->
+    <!--    height大于thumb直径起作用，小于thumb直径则不起作用，所以设置小一点，屏蔽其作用-->
+    <size
+        android:width="100dp"
+        android:height="10dp" />
+    <!-- 宽度和高度 -->
+
+    <!-- 填充 -->
+    <solid android:color="#DBDBDB" />
+    <!-- 填充的颜色 -->
+</shape>
