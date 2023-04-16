@@ -93,11 +93,11 @@ public class SwitchView extends LinearLayout {
 
         Class<StateListDrawable> slDraClass = StateListDrawable.class;
         try {
-            Method getStateCountMethod = slDraClass.getDeclaredMethod("getStateCount",  null);
+            Method getStateCountMethod = slDraClass.getDeclaredMethod("getStateCount",  (Class<?>[])null);
             Method getStateSetMethod = slDraClass.getDeclaredMethod("getStateSet", int.class);
             Method getDrawableMethod = slDraClass.getDeclaredMethod("getStateDrawable", int.class);
 
-            int count = (Integer) getStateCountMethod.invoke(trackDrawable, null);
+            int count = (Integer) getStateCountMethod.invoke(trackDrawable, (Object[]) null);
 //            Log.e(TAG, "state count =" + count);
             for (int i = 0; i < count; i++) {
                 int[] stateSet = (int[]) getStateSetMethod.invoke(trackDrawable, i);
