@@ -56,7 +56,7 @@ implementation 'com.github.byteteacher:switchview:1.0.0'
 | ----------------------- | ------- | -------------------- |
 | thumbSize               | dimens  | 设置开关大小         |
 | thumbColor              | color   | 设置开关滑块的颜色   |
-| trackViewUncheckedColor | color   | 设置关闭状态背景色   |
+| trackViewUncheckedColor | color   | 设置关闭状态背景颜色   |
 | trackViewCheckedColor   | color   | 设置开启状态背景颜色 |
 | checked                 | boolean | 设置初始开关状态     |
 
