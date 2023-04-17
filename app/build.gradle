@@ -43,6 +43,6 @@ dependencies {
 
     implementation 'com.github.zhangchaojun:baselibrary:1.0.5'
 //    implementation project(':library')
-    implementation('com.github.byteteacher:switchview:1.0.0')
+    implementation 'com.github.byteteacher:switchview:1.0.0'
 
 }

@@ -7,6 +7,11 @@
 
 ### 使用方式
 
+#### 添加依赖
+```groovy
+implementation 'com.github.byteteacher:switchview:1.0.0'
+```
+
 #### 1、xml使用
 
 ```xml
