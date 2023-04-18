@@ -1,6 +1,6 @@
 package com.example.mytest.application;
 
-import com.cj.library.base.BaseApplication;
+import com.byteteacher.library.base.BaseApplication;
 
 
 /**

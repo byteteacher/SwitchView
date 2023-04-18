@@ -4,8 +4,8 @@ import android.graphics.Color;
 import android.util.Log;
 import android.widget.CompoundButton;
 
-import com.byteteacher.library.SwitchView;
-import com.cj.library.base.BaseActivity;
+import com.byteteacher.library.switchview.SwitchView;
+import com.byteteacher.library.base.BaseActivity;
 import com.example.myswitchview.R;
 
 

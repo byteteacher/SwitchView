@@ -10,12 +10,11 @@
         android:id="@+id/bt_start"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:onClick="onClick"
         android:background="@android:color/transparent"
         android:text="" />
 
 
-    <com.byteteacher.library.SwitchView
+    <com.byteteacher.library.switchview.SwitchView
         android:id="@+id/myswitch"
         android:layout_width="wrap_content"
         app:thumbSize="26dp"

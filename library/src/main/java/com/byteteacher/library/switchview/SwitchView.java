@@ -1,4 +1,4 @@
-package com.byteteacher.library;
+package com.byteteacher.library.switchview;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -93,7 +93,7 @@ public class SwitchView extends LinearLayout {
 
         Class<StateListDrawable> slDraClass = StateListDrawable.class;
         try {
-            Method getStateCountMethod = slDraClass.getDeclaredMethod("getStateCount",  (Class<?>[])null);
+            Method getStateCountMethod = slDraClass.getDeclaredMethod("getStateCount", (Class<?>[]) null);
             Method getStateSetMethod = slDraClass.getDeclaredMethod("getStateSet", int.class);
             Method getDrawableMethod = slDraClass.getDeclaredMethod("getStateDrawable", int.class);
 
@@ -140,9 +140,10 @@ public class SwitchView extends LinearLayout {
 
     /**
      * 手动设置打开关闭状态
+     *
      * @param checked 状态
      */
-    public void setChecked(boolean checked){
+    public void setChecked(boolean checked) {
         switchView.setChecked(checked);
     }
 }

@@ -15,7 +15,7 @@ implementation 'com.github.byteteacher:switchview:1.0.0'
 #### 1、xml使用
 
 ```xml
-    <com.byteteacher.library.SwitchView
+    <com.byteteacher.library.switchview.SwitchView
         android:id="@+id/myswitch"
         android:layout_width="wrap_content"
         app:thumbSize="26dp"
