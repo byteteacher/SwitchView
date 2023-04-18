@@ -42,7 +42,7 @@ dependencies {
 
 
     implementation 'com.github.byteteacher:baselibrary:1.0.0'
-    implementation project(':library')
-//    implementation 'com.github.byteteacher:switchview:1.0.0'
+//    implementation project(':library')
+    implementation 'com.github.byteteacher:switchview:2.0.0'
 
 }
